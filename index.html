@@ -14,8 +14,6 @@ Designer: Blogger
 URL:      www.blogger.com
 ----------------------------------------------- */
 
-/* Variable definitions
-   ====================
    <Variable name="keycolor" description="Main Color" type="color" default="#66bbdd" value="#004071"/>
 
    <Group description="Page Text" selector="body">
@@ -165,10 +163,7 @@ URL:      www.blogger.com
 
    <Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
    <Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
-*/
 
-/* Content
------------------------------------------------ */
 body {
   font: $(body.font);
   color: $(body.text.color);
@@ -237,8 +232,6 @@ $(content.background.color.selector) {
   background-color: $(content.background.color);
 }
 
-/* Header
------------------------------------------------ */
 .header-outer {
   background: $(header.background.color) $(header.background.gradient) repeat-x scroll 0 -400px;
   _background-image: none;
@@ -267,8 +260,6 @@ $(content.background.color.selector) {
   padding: 0 $(header.padding);
 }
 
-/* Tabs
------------------------------------------------ */
 .tabs-inner .section:first-child {
   border-top: $(header.bottom.border.size) solid $(tabs.border.color);
 }
@@ -312,8 +303,6 @@ $(content.background.color.selector) {
   text-decoration: none;
 }
 
-/* Columns
------------------------------------------------ */
 .main-outer {
   border-top: $(main.border.width) solid $(body.rule.color);
 }
